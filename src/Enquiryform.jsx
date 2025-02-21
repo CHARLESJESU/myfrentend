@@ -96,7 +96,7 @@ const EnquiryForm = () => {
     setMessage(""); 
 
     try {
-      const response = await axios.post("http://localhost:5000/api/enquiry", formData);
+      const response = await axios.post("https://mybackend-qa3y.onrender.com/api/enquiry", formData);
 
       if (response.status === 201) {
         setMessage("All data is saved successfully!");

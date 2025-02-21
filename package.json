@@ -1,6 +1,6 @@
 {
   "name": "enquery",
-  "homepage": "https://CHARLESJESU.github.io/EqueryForm/",
+  "homepage": "https://CHARLESJESU.github.io/myfrontend/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,11 +9,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "first-pages -d dist"
+    "predeploy": "npm run build"
+    
   },
   "dependencies": {
-    "axios": "^1.7.9",
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "html2canvas": "^1.4.1",
